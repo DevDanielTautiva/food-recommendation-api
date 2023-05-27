@@ -1,10 +1,16 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import { DynamoDBConfig } from '../dynamodb.config';
+import { RecommendationModule } from './modules/recommendation/recommendation.module';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [
+    ConfigModule.forRoot({
+      envFilePath: ['.env'],
+    }),
+    RecommendationModule,
+  ],
+  controllers: [],
+  providers: [DynamoDBConfig],
 })
 export class AppModule {}

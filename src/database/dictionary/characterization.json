@@ -1,0 +1,16 @@
+{
+    "vegetariana": "pollo marinado,caldo de carne,pechuga de pato,costillas de cerdo,carne molida,carne de vacuno,carne de cerdo rellena,pollo desmenuzado,carne de res o pollo,carne de res empanizada,pollo a la parrilla,salchicha,pescado fresco,carne,pescado,pollo,cerdo,costillas de res,camarones,relleno de carne,carne de res,carne de cerdo",
+    "vegetarianas": "pollo marinado,caldo de carne,pechuga de pato,costillas de cerdo,carne molida,carne de vacuno,carne de cerdo rellena,pollo desmenuzado,carne de res o pollo,carne de res empanizada,pollo a la parrilla,salchicha,pescado fresco,carne,pescado,pollo,cerdo,costillas de res,camarones,relleno de carne,carne de res,carne de cerdo",
+    "vegetariano": "pollo marinado,caldo de carne,pechuga de pato,costillas de cerdo,carne molida,carne de vacuno,carne de cerdo rellena,pollo desmenuzado,carne de res o pollo,carne de res empanizada,pollo a la parrilla,salchicha,pescado fresco,carne,pescado,pollo,cerdo,costillas de res,camarones,relleno de carne,carne de res,carne de cerdo",
+    "vegetarianos": "pollo marinado,caldo de carne,pechuga de pato,costillas de cerdo,carne molida,carne de vacuno,carne de cerdo rellena,pollo desmenuzado,carne de res o pollo,carne de res empanizada,pollo a la parrilla,salchicha,pescado fresco,carne,pescado,pollo,cerdo,costillas de res,camarones,relleno de carne,carne de res,carne de cerdo",
+    "carnívoro": "vegetales",
+    "carnívoros": "vegetales",
+    "alergico a": " _ _ _ _",
+    "alergica a": " _ _ _ _",
+    "intolerante a": " _ _ _ _",
+    "intolerantes a": " _ _ _ _",
+    "vegano": "pollo marinado,caldo de carne,pechuga de pato,costillas de cerdo,carne molida,carne de vacuno,carne de cerdo rellena,pollo desmenuzado,carne de res o pollo,carne de res empanizada,pollo a la parrilla,salchicha,pescado fresco,carne,pescado,pollo,cerdo,costillas de res,camarones,relleno de carne,carne de res,carne de cerdo",
+    "veganos": "pollo marinado,caldo de carne,pechuga de pato,costillas de cerdo,carne molida,carne de vacuno,carne de cerdo rellena,pollo desmenuzado,carne de res o pollo,carne de res empanizada,pollo a la parrilla,salchicha,pescado fresco,carne,pescado,pollo,cerdo,costillas de res,camarones,relleno de carne,carne de res,carne de cerdo",
+    "diabeticos": "azucar",
+    "diabetico": "azucar"
+}

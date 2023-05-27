@@ -1,0 +1,902 @@
+[
+  {
+      "name": "Restaurante A",
+      "description": "Restaurante de comida italiana",
+      "foodType": "Italiana",
+      "menus": [
+          {
+              "name": "Pizza Margherita",
+              "ingredients": "Mozzarella, tomate, albahaca",
+              "price": "$10",
+              "qualification": "4.5"
+          },
+          {
+              "name": "Pasta Alfredo",
+              "ingredients": "Fettuccine, salsa Alfredo, parmesano",
+              "price": "$12",
+              "qualification": "4.8"
+          },
+          {
+              "name": "Lasagna Bolognesa",
+              "ingredients": "Carne molida, pasta, salsa de tomate, queso",
+              "price": "$14",
+              "qualification": "4.6"
+          }
+      ],
+      "referencias": ["dulce", "salado", "picante", "suave", "crujiente", "sabroso", "amargo", "fresco", "caliente", "delicioso"]
+  },
+  {
+      "name": "Restaurante B",
+      "description": "Restaurante de comida mexicana",
+      "foodType": "Mexicana",
+      "menus": [
+          {
+              "name": "Tacos al Pastor",
+              "ingredients": "Carne de cerdo, tortillas de maíz, piña",
+              "price": "$8",
+              "qualification": "4.7"
+          },
+          {
+              "name": "Quesadillas",
+              "ingredients": "Tortillas de harina, queso, guacamole",
+              "price": "$6",
+              "qualification": "4.4"
+          },
+          {
+              "name": "Enchiladas Verdes",
+              "ingredients": "Tortillas de maíz, pollo, salsa verde, crema",
+              "price": "$9",
+              "qualification": "4.6"
+          }
+      ],
+      "referencias": ["picante", "sabroso", "amargo", "agrio", "especiado"]
+  },
+  {
+      "name": "Restaurante C",
+      "description": "Restaurante de comida china",
+      "foodType": "China",
+      "menus": [
+          {
+              "name": "Arroz Frito",
+              "ingredients": "Arroz, pollo, vegetales",
+              "price": "$9",
+              "qualification": "4.2"
+          },
+          {
+              "name": "Pollo Agridulce",
+              "ingredients": "Pollo, piña, salsa agridulce",
+              "price": "$11",
+              "qualification": "4.3"
+          },
+          {
+              "name": "Rollitos Primavera",
+              "ingredients": "Vegetales, masa de rollito, salsa agridulce",
+              "price": "$6",
+              "qualification": "4.1"
+          }
+      ],
+      "referencias" :["salado", "amargo", "fresco", "crujiente", "ahumado", "especiado", "herbáceo"]
+  },
+  {
+      "name": "Restaurante D",
+      "description": "Restaurante de comida japonesa",
+      "foodType": "Japonesa",
+      "menus": [
+          {
+              "name": "Sushi Variado",
+              "ingredients": "Pescado fresco, arroz, alga nori",
+              "price": "$15",
+              "qualification": "4.9"
+          },
+          {
+              "name": "Sashimi",
+              "ingredients": "Pescado fresco en láminas",
+              "price": "$18",
+              "qualification": "4.7"
+          },
+          {
+              "name": "Ramen",
+              "ingredients": "Fideos, caldo, cerdo, huevo",
+              "price": "$12",
+              "qualification": "4.6"
+          }
+      ],
+      "referencias" :["salado", "fresco", "suave", "sabroso", "crujiente", "ahumado", "agrio", "especiado", "delicado"]
+  },
+  {
+  "name": "Restaurante E",
+  "description": "Restaurante de comida francesa",
+  "foodType": "Francesa",
+  "menus": [
+      {
+      "name": "Sopa de Cebolla",
+      "ingredients": "Cebolla, caldo de carne, queso gratinado",
+      "price": "$9",
+      "qualification": "4.5"
+      },
+      {
+      "name": "Escargots de Bourgogne",
+      "ingredients": "Caracoles, mantequilla de ajo, perejil",
+      "price": "$15",
+      "qualification": "4.7"
+      },
+      {
+      "name": "Magret de Pato",
+      "ingredients": "Pechuga de pato, salsa de frutos rojos, puré de patatas",
+      "price": "$22",
+      "qualification": "4.8"
+      }
+  ],
+  "referencias" :["salado", "grazoso", "crujiente", "sabroso", "ahumado", "agrio", "especiado"]
+  },
+  {
+  "name": "Restaurante F",
+  "description": "Restaurante de comida india",
+  "foodType": "India",
+  "menus": [
+      {
+      "name": "Pollo Tikka Masala",
+      "ingredients": "Pollo, salsa de tomate, especias",
+      "price": "$12",
+      "qualification": "4.6"
+      },
+      {
+      "name": "Biryani de Cordero",
+      "ingredients": "Cordero, arroz basmati, especias",
+      "price": "$14",
+      "qualification": "4.7"
+      },
+      {
+      "name": "Paneer Tikka",
+      "ingredients": "Queso paneer, especias, marinado a la parrilla",
+      "price": "$10",
+      "qualification": "4.4"
+      }
+  ],
+  "referencias" :["grazoso", "amargo", "ácido", "especiado", "herbáceo", "intenso"]
+  },
+  {
+  "name": "Restaurante G",
+  "description": "Restaurante de comida tailandesa",
+  "foodType": "Tailandesa",
+  "menus": [
+      {
+      "name": "Pad Thai",
+      "ingredients": "Fideos de arroz, camarones, tofu, cacahuetes",
+      "price": "$11",
+      "qualification": "4.5"
+      },
+      {
+      "name": "Curry Verde de Pollo",
+      "ingredients": "Pollo, leche de coco, chiles verdes, albahaca tailandesa",
+      "price": "$13",
+      "qualification": "4.7"
+      },
+      {
+      "name": "Tom Yum",
+      "ingredients": "Sopa picante de mariscos, limoncillo, cilantro",
+      "price": "$9",
+      "qualification": "4.6"
+      }
+  ],
+  "referencias" :["picante", "grazoso", "amargo", "fresco", "suave", "crujiente", "especiado", "herbáceo"]
+  },
+  {
+  "name": "Restaurante H",
+  "description": "Restaurante de comida vegetariana",
+  "foodType": "Vegetariana",
+  "menus": [
+      {
+      "name": "Ensalada de Quinoa",
+      "ingredients": "Quinoa, espinacas, tomates, aguacate",
+      "price": "$10",
+      "qualification": "4.4"
+      },
+      {
+      "name": "Wrap Vegano",
+      "ingredients": "Tortilla de trigo, tofu, vegetales, hummus",
+      "price": "$8",
+      "qualification": "4.3"
+      },
+      {
+      "name": "Risotto de Champiñones",
+      "ingredients": "Arroz, champiñones, caldo de verduras, queso parmesano",
+      "price": "$12",
+      "qualification": "4.6"
+      }
+  ],
+  "referencias" :["dulce", "salado", "fresco", "suave", "sabroso", "herbáceo", "delicado"]
+  },
+  {
+      "name": "Restaurante I",
+      "description": "Restaurante de comida española",
+      "foodType": "Española",
+      "menus": [
+      {
+          "name": "Paella Valenciana",
+          "ingredients": "Arroz, pollo, conejo, judías verdes",
+          "price": "$18",
+          "qualification": "4.8"
+      },
+      {
+          "name": "Tortilla Española",
+          "ingredients": "Huevos, patatas, cebolla",
+          "price": "$10",
+          "qualification": "4.6"
+      },
+      {
+          "name": "Gazpacho",
+          "ingredients": "Tomate, pepino, pimiento, aceite de oliva",
+          "price": "$8",
+          "qualification": "4.7"
+      }
+      ],
+      "referencias" :["salado", "grazoso", "picante", "amargo", "ahumado", "agrio", "especiado"]
+  },
+  {
+      "name": "Restaurante J",
+      "description": "Restaurante de comida griega",
+      "foodType": "Griega",
+      "menus": [
+      {
+          "name": "Moussaka",
+          "ingredients": "Carne molida, berenjena, salsa bechamel",
+          "price": "$14",
+          "qualification": "4.7"
+      },
+      {
+          "name": "Souvlaki",
+          "ingredients": "Brochetas de carne de cerdo, tzatziki, pita",
+          "price": "$12",
+          "qualification": "4.6"
+      },
+      {
+          "name": "Ensalada Griega",
+          "ingredients": "Tomate, pepino, cebolla roja, queso feta",
+          "price": "$9",
+          "qualification": "4.5"
+      }
+      ],
+      "referencias" :["salado", "fresco", "sabroso", "amargo", "especiado", "herbáceo"]
+  },
+  {
+      "name": "Restaurante K",
+      "description": "Restaurante de comida argentina",
+      "foodType": "Argentina",
+      "menus": [
+        {
+          "name": "Asado",
+          "ingredients": "Carne de res, chimichurri, provoleta",
+          "price": "$20",
+          "qualification": "4.9"
+        },
+        {
+          "name": "Empanadas",
+          "ingredients": "Relleno de carne, pollo o verduras",
+          "price": "$8",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Milanesa a la Napolitana",
+          "ingredients": "Filete de carne empanizado, salsa de tomate, jamón, queso",
+          "price": "$18",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Matambre a la Pizza",
+          "ingredients": "Carne de cerdo rellena, salsa de tomate, queso",
+          "price": "$16",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["salado", "grazoso", "amargo", "ahumado", "especiado"]
+  },
+  {
+      "name": "Restaurante L",
+      "description": "Restaurante de comida vegana",
+      "foodType": "Vegana",
+      "menus": [
+          {
+              "name": "Burger Vegana",
+              "ingredients": "Hamburguesa de lentejas, pan integral, vegetales",
+              "price": "$12",
+              "qualification": "4.4"
+          },
+          {
+              "name": "Sopa de Verduras",
+              "ingredients": "Caldo de verduras, zanahoria, apio, brócoli",
+              "price": "$9",
+              "qualification": "4.2"
+          },
+          {
+              "name": "Ensalada de Quinoa y Aguacate",
+              "ingredients": "Quinoa, aguacate, tomate cherry, aliño de limón",
+              "price": "$10",
+              "qualification": "4.3"
+          }
+      ],
+      "referencias" :["fresco", "suave", "sabroso", "herbáceo", "especiado", "delicado"]
+  },
+  {
+      "name": "Restaurante M",
+      "description": "Restaurante de comida chilena",
+      "foodType": "Chilena",
+      "menus": [
+        {
+          "name": "Empanadas",
+          "ingredients": "Masa de hojaldre, carne, cebolla, aceitunas",
+          "price": "$3",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Pastel de Choclo",
+          "ingredients": "Carne, pollo, maíz, aceitunas, huevo",
+          "price": "$10",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Cazuela",
+          "ingredients": "Carne de vacuno, caldo, papas, zapallo",
+          "price": "$12",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["salado", "amargo", "suave", "sabroso", "ahumado", "especiado", "herbáceo"]
+    },
+    {
+      "name": "Restaurante N",
+      "description": "Restaurante de comida dominicana",
+      "foodType": "Dominicana",
+      "menus": [
+        {
+          "name": "Mofongo con Chicharrón",
+          "ingredients": "Plátanos verdes, chicharrón de cerdo, ajo",
+          "price": "$10",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Sancocho",
+          "ingredients": "Pollo, carne de res, cerdo, yuca, plátanos, maíz",
+          "price": "$12",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Bandera Dominicana",
+          "ingredients": "Arroz blanco, habichuelas rojas, carne guisada, ensalada",
+          "price": "$15",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["sabroso", "fresco", "suave", "crujiente", "ahumado", "especiado", "cremoso"]
+    },
+    {
+      "name": "Restaurante O",
+      "description": "Restaurante de comida libanesa",
+      "foodType": "Libanesa",
+      "menus": [
+        {
+          "name": "Hummus",
+          "ingredients": "Garbanzos, tahini, aceite de oliva",
+          "price": "$8",
+          "qualification": "4.4"
+        },
+        {
+          "name": "Shawarma de Pollo",
+          "ingredients": "Pollo marinado, pan pita, salsa de ajo",
+          "price": "$12",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Tabbouleh",
+          "ingredients": "Perejil, bulgur, tomate, menta",
+          "price": "$9",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["salado", "picante", "grazoso", "suave", "sabroso", "ahumado", "especiado", "herbáceo"]
+    },
+    {
+      "name": "Restaurante P",
+      "description": "Restaurante de comida cubana",
+      "foodType": "Cubana",
+      "menus": [
+        {
+          "name": "Ropa Vieja",
+          "ingredients": "Carne de res deshebrada, pimientos, cebolla, tomate",
+          "price": "$15",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Lechón Asado",
+          "ingredients": "Cerdo asado lentamente, mojo criollo, yuca",
+          "price": "$18",
+          "qualification": "4.9"
+        },
+        {
+          "name": "Moros y Cristianos",
+          "ingredients": "Arroz, frijoles negros, especias",
+          "price": "$10",
+          "qualification": "4.6"
+        },
+        {
+          "name": "Tostones",
+          "ingredients": "Plátanos verdes fritos, ajo, sal",
+          "price": "$6",
+          "qualification": "4.5"
+        }
+      ],
+      "referencias" :["salado", "picante", "grazoso", "ahumado", "sabroso", "agrio"]
+    },
+    {
+      "name": "Restaurante Q",
+      "description": "Restaurante de comida panameña",
+      "foodType": "Panameña",
+      "menus": [
+        {
+          "name": "Sancocho",
+          "ingredients": "Pollo, yuca, ñame, maíz, culantro",
+          "price": "$10",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Arroz con Guandú",
+          "ingredients": "Arroz, guandú, coco, cebolla",
+          "price": "$8",
+          "qualification": "4.6"
+        },
+        {
+          "name": "Pescado Frito con Patacones",
+          "ingredients": "Pescado fresco, plátano verde, limón",
+          "price": "$12",
+          "qualification": "4.7"
+        }
+      ],
+      "referencias" :["sabroso", "picante", "fresco", "crujiente", "ahumado", "agrio", "especiado"]
+    },
+    {
+      "name": "Restaurante R",
+      "description": "Restaurante de comida colombiana",
+      "foodType": "Colombiana",
+      "menus": [
+          {
+              "name": "Bandeja Paisa",
+              "ingredients": "Carne de cerdo, frijoles, arroz, huevo frito, plátano maduro, chorizo, chicharrón, aguacate",
+              "price": "$15",
+              "qualification": "4.8"
+            },
+            {
+              "name": "Ajiaco",
+              "ingredients": "Pollo, papa criolla, mazorca de maíz, guascas, crema de leche, alcaparras",
+              "price": "$12",
+              "qualification": "4.6"
+            },
+            {
+              "name": "Empanadas",
+              "ingredients": "Masa de maíz, carne, papa, cebolla, comino",
+              "price": "$8",
+              "qualification": "4.5"
+            },
+            {
+              "name": "Sancocho",
+              "ingredients": "Pollo, papa, yuca, plátano, cilantro",
+              "price": "$10",
+              "qualification": "4.7"
+            },
+            {
+              "name": "Arepa de Choclo",
+              "ingredients": "Masa de maíz, queso, mazorca de maíz tierno",
+              "price": "$6",
+              "qualification": "4.4"
+            },
+            {
+              "name": "Bocadillo con Queso",
+              "ingredients": "Bocadillo (dulce de guayaba), queso",
+              "price": "$5",
+              "qualification": "4.3"
+            },
+            {
+              "name": "Sancocho de Pescado",
+              "ingredients": "Pescado, papa, yuca, plátano, cilantro, ají",
+              "price": "$14",
+              "qualification": "4.6"
+            },
+            {
+              "name": "Lechona",
+              "ingredients": "Cerdo, arroz, cebolla, arvejas, especias",
+              "price": "$18",
+              "qualification": "4.8"
+            },
+            {
+              "name": "Fritanga Colombiana",
+              "ingredients": "Chorizo, morcilla, chicharrón, papa criolla, arepa, plátano maduro",
+              "price": "$16",
+              "qualification": "4.7"
+            },
+            {
+              "name": "Patacón con Todo",
+              "ingredients": "Patacón (plátano verde frito), carne desmechada, guacamole, queso, salsa rosada",
+              "price": "$12",
+              "qualification": "4.5"
+            },
+            {
+              "name": "Tamal",
+              "ingredients": "Masa de maíz, pollo, cerdo, zanahoria, arvejas, aceitunas",
+              "price": "$10",
+              "qualification": "4.4"
+            },
+            {
+              "name": "Arepas Rellenas",
+              "ingredients": "Arepas de maíz, carne desmechada, queso, aguacate, hogao",
+              "price": "$8",
+              "qualification": "4.3"
+            },
+            {
+              "name": "Changua",
+              "ingredients": "Leche, huevo, cilantro, cebolla, pan",
+              "price": "$6",
+              "qualification": "4.2"
+            }
+      ],
+      "referencias" :["sabroso", "picante", "ahumado", "agrio", "oleoso", "especiado", "herbáceo", "cremoso"]
+    },
+    {
+      "name": "Restaurante S",
+      "description": "Restaurante de comida paraguaya",
+      "foodType": "Paraguaya",
+      "menus": [
+        {
+          "name": "Sopa Paraguaya",
+          "ingredients": "Harina de maíz, queso Paraguay, cebolla",
+          "price": "$8",
+          "qualification": "4.5"
+        },
+        {
+          "name": "Chipa Guasú",
+          "ingredients": "Harina de maíz, queso, cebolla, choclo",
+          "price": "$10",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Asado de Tira",
+          "ingredients": "Costillas de res, chimichurri, mandioca frita",
+          "price": "$18",
+          "qualification": "4.8"
+        }
+      ],
+      "referencias" :["salado", "picante", "amargo", "sabroso", "suave", "crujiente", "ahumado", "agrio", "especiado"]
+    },
+    {
+      "name": "Restaurante T",
+      "description": "Restaurante de comida boliviana",
+      "foodType": "Boliviana",
+      "menus": [
+        {
+          "name": "Salteñas",
+          "ingredients": "Masa, carne de res o pollo, papas, aceitunas",
+          "price": "$3",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Silpancho",
+          "ingredients": "Carne de res empanizada, arroz, huevo frito",
+          "price": "$10",
+          "qualification": "4.6"
+        },
+        {
+          "name": "Sopa de Maní",
+          "ingredients": "Maní molido, carne de res, verduras",
+          "price": "$8",
+          "qualification": "4.5"
+        }
+      ],
+      "referencias" :["salado", "amargo", "agrio", "especiado"]
+    },
+    {
+      "name": "Restaurante U",
+      "description": "Restaurante de comida rápida o chatarra",
+      "foodType": "Comida rápida",
+      "menus": [
+        {
+          "name": "Hamburguesa Clásica",
+          "ingredients": "Pan, carne de res, queso, lechuga, tomate, salsa especial",
+          "price": "$8",
+          "qualification": "4.2"
+        },
+        {
+          "name": "Papas Fritas",
+          "ingredients": "Papas, sal, ketchup",
+          "price": "$3",
+          "qualification": "4.5"
+        },
+        {
+          "name": "Hot Dog",
+          "ingredients": "Pan de hot dog, salchicha, mostaza, ketchup, cebolla picada",
+          "price": "$5",
+          "qualification": "4.0"
+        },
+        {
+          "name": "Pizza de Pepperoni",
+          "ingredients": "Masa de pizza, salsa de tomate, queso, pepperoni",
+          "price": "$10",
+          "qualification": "4.3"
+        },
+        {
+          "name": "Nuggets de Pollo",
+          "ingredients": "Pollo empanizado, salsa de elección",
+          "price": "$6",
+          "qualification": "4.1"
+        }
+      ],
+      "referencias" :["dulce", "salado", "picante", "grazoso", "crujiente", "sabroso", "ahumado", "oleoso", "intenso"]
+    },
+    {
+      "name": "Restaurante U",
+      "description": "Restaurante de comida asiática",
+      "foodType": "Asiática",
+      "menus": [
+        {
+          "name": "Rollitos de Primavera",
+          "ingredients": "Vegetales, fideos de arroz, salsa agridulce",
+          "price": "$6",
+          "qualification": "4.5"
+        },
+        {
+          "name": "Pollo al Curry",
+          "ingredients": "Pollo, leche de coco, curry amarillo, verduras",
+          "price": "$10",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Arroz Frito con Camarones",
+          "ingredients": "Arroz, camarones, vegetales, salsa de soja",
+          "price": "$12",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["picante", "salado", "grazoso", "amargo", "ácido", "fresco", "suave", "crujiente", "sabroso", "ahumado", "especiado", "herbáceo" , "intenso"]
+    },
+    {
+      "name": "Restaurante W",
+      "description": "Restaurante de comida venezolana",
+      "foodType": "Venezolana",
+      "menus": [
+        {
+          "name": "Arepa Reina Pepiada",
+          "ingredients": "Pollo desmenuzado, aguacate, mayonesa",
+          "price": "$8",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Pabellón Criollo",
+          "ingredients": "Carne mechada, arroz, caraotas negras, plátano frito",
+          "price": "$12",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Cachapa",
+          "ingredients": "Maíz tierno, queso, mantequilla",
+          "price": "$10",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["salado", "grazoso", "picante", "amargo", "ahumado", "agrio", "especiado", "cremoso"]
+    },
+    {
+      "name": "Restaurante X",
+      "description": "Restaurante de comida brasileña",
+      "foodType": "Brasileña",
+      "menus": [
+        {
+          "name": "Feijoada",
+          "ingredients": "Frijoles negros, carne de cerdo, arroz, naranja",
+          "price": "$16",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Pão de Queijo",
+          "ingredients": "Panecillos de queso",
+          "price": "$6",
+          "qualification": "4.5"
+        },
+        {
+          "name": "Coxinha",
+          "ingredients": "Pollo desmenuzado, masa de yuca, frito",
+          "price": "$8",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["dulce", "salado", "picante", "grazoso", "amargo", "ácido", "fresco", "crujiente", "ahumado", "especiado", "intenso"]
+    },
+    {
+      "name": "Restaurante Y",
+      "description": "Restaurante de comida estadounidense",
+      "foodType": "Estadounidense",
+      "menus": [
+          {
+              "name": "Hamburguesa Clásica",
+              "ingredients": "Carne de res, pan de hamburguesa, lechuga, tomate, queso",
+              "price": "$10",
+              "qualification": "4.5"
+          },
+          {
+              "name": "Costillas a la Barbacoa",
+              "ingredients": "Costillas de cerdo, salsa barbacoa, papas fritas, ensalada coleslaw",
+              "price": "$18",
+              "qualification": "4.8"
+          },
+          {
+              "name": "Sándwich de Pollo Frito",
+              "ingredients": "Pollo empanizado, pan de sándwich, mayonesa, pepinillos",
+              "price": "$12",
+              "qualification": "4.6"
+          }
+      ],
+      "referencias" :["salado", "grazoso", "ahumado"]
+     },
+    {
+      "name": "Restaurante Z",
+      "description": "Restaurante de comida peruana",
+      "foodType": "Peruana",
+      "menus": [
+        {
+          "name": "Ceviche",
+          "ingredients": "Pescado fresco, limón, cebolla morada, ají",
+          "price": "$15",
+          "qualification": "4.9"
+        },
+        {
+          "name": "Lomo Saltado",
+          "ingredients": "Tiras de carne de res, cebolla, tomate, papas fritas",
+          "price": "$16",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Aji de Gallina",
+          "ingredients": "Pollo deshilachado, ají amarillo, crema de leche, arroz",
+          "price": "$14",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias" :["picante", "grazoso", "amargo", "suave", "crujiente", "sabroso"]
+    },
+    {
+      "name": "Restaurante Bonus",
+      "description": "Restaurante de comida saludable",
+      "foodType": "Saludable",
+      "menus": [
+        {
+          "name": "Ensalada de Quinoa y Vegetales",
+          "ingredients": "Quinoa, espinacas, pepino, tomate, aguacate, aderezo ligero",
+          "price": "$10",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Bowl de Salmón y Quinoa",
+          "ingredients": "Salmón a la parrilla, quinoa, espárragos, zanahorias, salsa de yogur",
+          "price": "$14",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Wrap de Pollo a la Parrilla",
+          "ingredients": "Pollo a la parrilla, lechuga, tomate, aguacate, tortilla integral",
+          "price": "$12",
+          "qualification": "4.6"
+        },
+        {
+          "name": "Sopa de Lentejas y Vegetales",
+          "ingredients": "Lentejas, zanahorias, apio, cebolla, caldo de verduras",
+          "price": "$8",
+          "qualification": "4.4"
+        },
+        {
+          "name": "Smoothie Verde Energizante",
+          "ingredients": "Espinacas, plátano, piña, jengibre, agua de coco",
+          "price": "$6",
+          "qualification": "4.5"
+        }
+      ],
+      "referencias" :["fresco", "suave", "sabroso", "herbáceo", "delicado"]
+    },
+    {
+        "name": "Restaurante Dulce Tentación",
+        "description": "Restaurante de postres deliciosos",
+        "foodType": "Postres",
+        "menus": [
+          {
+            "name": "Tarta de Fresas",
+            "ingredients": "Fresas frescas, masa quebrada, crema pastelera, glaseado de fresa",
+            "price": "$8",
+            "qualification": "4.7"
+          },
+          {
+            "name": "Brownie de Chocolate",
+            "ingredients": "Chocolate negro, mantequilla, azúcar, huevos, harina, nueces",
+            "price": "$6",
+            "qualification": "4.6"
+          },
+          {
+            "name": "Helado de Vainilla",
+            "ingredients": "Leche, crema de vainilla, azúcar, yema de huevo",
+            "price": "$5",
+            "qualification": "4.5"
+          },
+          {
+            "name": "Cheesecake de Frutos Rojos",
+            "ingredients": "Galleta triturada, queso crema, azúcar, frutos rojos, gelatina",
+            "price": "$10",
+            "qualification": "4.8"
+          },
+          {
+            "name": "Cupcake de Caramelo",
+            "ingredients": "Harina, azúcar, mantequilla, leche, caramelo líquido",
+            "price": "$3",
+            "qualification": "4.4"
+          }
+        ],
+          "referencias": ["dulce", "suave", "sabroso", "cremoso", "delicioso"]
+    },
+    {
+      "name": "Pastelería Dulce Delicia",
+      "description": "Pastelería especializada en postres dulces y deliciosos",
+      "foodType": "Postres",
+      "menus": [
+        {
+          "name": "Tarta de Chocolate",
+          "ingredients": "Bizcocho de chocolate, ganache de chocolate, decoración de chocolate",
+          "price": "$8",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Cheesecake de Fresa",
+          "ingredients": "Base de galleta, crema de queso, salsa de fresa, decoración de fresas frescas",
+          "price": "$10",
+          "qualification": "4.9"
+        },
+        {
+          "name": "Cupcakes Variados",
+          "ingredients": "Bizcocho esponjoso, crema de diferentes sabores, decoración colorida",
+          "price": "$3",
+          "qualification": "4.5"
+        },
+        {
+          "name": "Helado de Vainilla",
+          "ingredients": "Crema de vainilla, trocitos de galleta, salsa de caramelo",
+          "price": "$5",
+          "qualification": "4.6"
+        }
+      ],
+      "referencias": ["dulce", "cremoso", "sabroso", "delicioso", "tentador"]
+    },
+    {
+      "name": "Cafetería Saboríssimo",
+      "description": "Gelatería artesanal con una amplia variedad de sabores",
+      "foodType": "Postres",
+      "menus": [
+        {
+          "name": "Gelato de Fresa",
+          "ingredients": "Fresas frescas, leche, azúcar, trocitos de fresa",
+          "price": "$6",
+          "qualification": "4.8"
+        },
+        {
+          "name": "Tarta de Limón",
+          "ingredients": "Base de galleta, crema de limón, merengue tostado",
+          "price": "$9",
+          "qualification": "4.7"
+        },
+        {
+          "name": "Crepe de Nutella y Plátano",
+          "ingredients": "Crepe de harina, Nutella, plátano en rodajas, crema batida",
+          "price": "$7",
+          "qualification": "4.6"
+        },
+        {
+          "name": "Mousse de Chocolate Blanco",
+          "ingredients": "Chocolate blanco, crema batida, decoración de chocolate",
+          "price": "$8",
+          "qualification": "4.5"
+        }
+      ],
+      "referencias": ["refrescante", "suave", "delicioso", "cremoso", "tentador"]
+    }
+]
